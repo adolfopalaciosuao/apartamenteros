@@ -12,5 +12,12 @@ EditorBuildSettings:
     path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.14.0/Hello Cardboard/Scenes/JC
       APTO SCENE.unity
     guid: c50681e0fde66401c89059fde3f14381
+  - enabled: 1
+    path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.14.0/Hello Cardboard/Scenes/Main
+      Menu.unity
+    guid: 51ecc824baa71564e91588df17027a1d
+  - enabled: 1
+    path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.14.0/Hello Cardboard/Scenes/QueBuscas.unity
+    guid: 6fb785c03f5157c449e67231f9ae2c87
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b4844c718b5fe46b1b068fe423f62975, type: 2}
