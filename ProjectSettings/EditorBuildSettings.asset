@@ -19,5 +19,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.14.0/Hello Cardboard/Scenes/QueBuscas.unity
     guid: 6fb785c03f5157c449e67231f9ae2c87
+  - enabled: 1
+    path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.14.0/Hello Cardboard/Scenes/CasaSonada.unity
+    guid: 1f5418e4612953b42ad5a4ecbf712987
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b4844c718b5fe46b1b068fe423f62975, type: 2}
