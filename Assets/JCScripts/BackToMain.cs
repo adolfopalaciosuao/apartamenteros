@@ -5,22 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class BackToMain : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+  
     public void MainMenu()
+
     {
-        SceneManager.LoadScene("Main Menu");
+
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+
     }
 
 
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -8,7 +8,7 @@ public class SceneSwitch : MonoBehaviour
     public void SceneSwitcher ()
     {
 
-     SceneManager.LoadScene(1);
+     UnityEngine.SceneManagement.SceneManager.LoadScene(1);
 
     }
 }
