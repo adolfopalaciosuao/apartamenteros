@@ -3,7 +3,8 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
-//[Ll]ogs/
+[Ll]ogs/
+Logs/
 Assets/AssetStoreTools*
 
 .DS_Store
