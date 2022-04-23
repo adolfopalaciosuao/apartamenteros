@@ -8,5 +8,21 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.14.0/Hello Cardboard/Scenes/Main
+      Menu.unity
+    guid: 51ecc824baa71564e91588df17027a1d
+  - enabled: 1
+    path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.14.0/Hello Cardboard/Scenes/QueBuscas.unity
+    guid: 6fb785c03f5157c449e67231f9ae2c87
+  - enabled: 1
+    path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.14.0/Hello Cardboard/Scenes/CasaSonada.unity
+    guid: 1f5418e4612953b42ad5a4ecbf712987
+  - enabled: 1
+    path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.14.0/Hello Cardboard/Scenes/BusquedaAvanzada.unity
+    guid: 5e03a05be3b409e4e906c27702fb74c3
+  - enabled: 1
+    path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.14.0/Hello Cardboard/Scenes/EligeTuCasa.unity
+    guid: dd6e6ced9a5bf824ba55831797ca2154
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b4844c718b5fe46b1b068fe423f62975, type: 2}
