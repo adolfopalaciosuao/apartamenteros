@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
     path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.14.0/Hello Cardboard/Scenes/Main
       Menu.unity
     guid: 51ecc824baa71564e91588df17027a1d

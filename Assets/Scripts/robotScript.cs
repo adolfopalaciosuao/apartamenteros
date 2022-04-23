@@ -13,14 +13,15 @@ public class robotScript : MonoBehaviour
     public GameObject Robot;
     public bool isOnRobot;
 
-
+    public GameObject Globo;
 
     // Start is called before the first frame update
     void Start()
     {
         SetTextMessage(msgInteraccion, false);
         Debug.Log(Input.GetJoystickNames());
-  
+        Globo.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -32,8 +33,9 @@ public class robotScript : MonoBehaviour
 
             if (Input.GetButtonDown("Fire2"))
             {
-                Debug.Log("Toca B");
-                SetTextMessage("Aparece cuadro", true);
+                //Debug.Log("Toca B");
+                SetTextMessage(" ", true);
+                Globo.SetActive(true);
             }
         }
 
@@ -45,13 +47,15 @@ public class robotScript : MonoBehaviour
         {
             player = other.gameObject.GetComponent<CharacterController>();
 
+
+
             if (player != null)
             {
                 //Entro un player
                 isOnRobot = true;
                 SetTextMessage(msgInteraccion, true);
-               
 
+                
             }
         }
         Debug.Log("Entro");
@@ -67,6 +71,7 @@ public class robotScript : MonoBehaviour
             isOnRobot = false;
             player = null;
             SetTextMessage(msgInteraccion, false);
+            Globo.SetActive(false);
 
 
         }
