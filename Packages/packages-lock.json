@@ -11,7 +11,7 @@
       "hash": "9442fcc8fbd7384d27fdedb17cf64e9453c77998"
     },
     "com.unity.collab-proxy": {
-      "version": "1.15.12",
+      "version": "1.17.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -27,16 +27,16 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "2.0.7",
+      "version": "3.0.16",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.test-framework": "1.1.1"
+        "com.unity.ext.nunit": "1.0.6"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.14",
+      "version": "2.0.16",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -45,7 +45,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
-      "version": "1.2.4",
+      "version": "1.2.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -68,7 +68,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.29",
+      "version": "1.1.33",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -109,7 +109,7 @@
       }
     },
     "com.unity.xr.legacyinputhelpers": {
-      "version": "2.1.8",
+      "version": "2.1.10",
       "depth": 1,
       "source": "registry",
       "dependencies": {
